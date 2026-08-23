@@ -3,6 +3,18 @@
 :root {
   --background: #f8f7f4;
   --foreground: #171717;
+
+  --primary: #171717;
+  --primary-foreground: #f8f7f4;
+
+  --accent: #7a3048;
+  --accent-light: #d9a9b7;
+
+  --surface: #ffffff;
+  --surface-muted: #eeeae4;
+  --border: #ded9d2;
+
+  --muted: #6f6b66;
 }
 
 * {
@@ -18,6 +30,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
 }
 
 a {
@@ -25,7 +46,33 @@ a {
   text-decoration: none;
 }
 
-button,
-a {
-  -webkit-tap-highlight-color: transparent;
+button {
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c8c2ba;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
 }
