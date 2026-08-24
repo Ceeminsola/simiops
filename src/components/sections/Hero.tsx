@@ -6,6 +6,7 @@ import {
   CalendarCheck,
   CheckCircle2,
   Sparkles,
+  Download
 } from "lucide-react";
 import Image from "next/image";
 import Button from "../ui/Button";
@@ -55,9 +56,14 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href="#work">View My Work</Button>
-            <Button href="#contact" variant="secondary">
-              Download My CV
-            </Button>
+            <a
+                  href="/cv/Simisola Olubodun VA CV 2026.pdf"
+                  download
+                  className="inline-flex items-center justify-center gap-2 rounded-full hover:-translate-y-0.5 hover:text-white hover:bg-[#7a3048] border border-[#7a3048] px-5 py-3.5 text-sm font-medium text-white transition-colors duration-300 "
+                >
+                  <Download size={16} />
+                  Download CV
+                </a>
           </div>
 
           <div className="mt-12 flex items-center gap-3 text-sm text-[#6f6b66]">
