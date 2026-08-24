@@ -1,10 +1,10 @@
 import Navbar from "@/components/layouts/Navbar";
 import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
-import HowIwork from "@/components/sections/HowIwork";
+import HowWork from "@/components/sections/Howwork";
 import Work from "@/components/sections/Work";
 import About from "@/components/sections/About";
-import Endorsements from "@/components/sections/Endorsement";
+import Endorsements from "@/components/sections/Endorsements";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 
@@ -18,7 +18,7 @@ export default function Home() {
 
         <Services />
 
-        <HowIwork />
+        <HowWork />
 
         <Work />
 

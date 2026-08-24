@@ -40,7 +40,7 @@ const steps = [
   },
 ];
 
-export default function HowIwork() {
+export default function Howwork() {
   return (
     <section className="bg-white px-5 py-24 text-white sm:px-8 lg:px-12 lg:py-32">
       <div className="mx-auto max-w-6xl">
