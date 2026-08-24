@@ -41,6 +41,32 @@ select {
   font-family: inherit;
 }
 
+@keyframes glow-gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.glow-gradient {
+  background-image:
+    radial-gradient(circle at 15% 20%, rgb(122 48 72 / 0.65), transparent 34%),
+    radial-gradient(circle at 85% 80%, rgb(122 48 72 / 0.9), transparent 38%),
+    linear-gradient(120deg, #7a3048, rgb(122 48 72 / 0.82) 52%, #7a3048);
+  background-size: 180% 180%;
+  animation: glow-gradient 10s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-gradient {
+    animation: none;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;

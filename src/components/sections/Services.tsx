@@ -7,6 +7,7 @@ import {
   FileSearch,
   FolderKanban,
   Laptop,
+  Sparkles,
   Workflow,
 } from "lucide-react";
 
@@ -63,9 +64,10 @@ export default function Services() {
     >
       <div className="mx-auto max-w-6xl">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium text-[#7a3048]">
-            What I can help with
-          </p>
+           <div className=" flex items-center gap-3 text-md font-medium text-[#7a3048]">
+            <Sparkles size={17} className="text-[#7a3048]" />
+            <span>What I can help with</span>
+          </div>
 
           <h2 className="mt-3 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
             The work behind the <span className="mt-2 text-[#7a3048]"> work </span>

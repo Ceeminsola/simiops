@@ -25,7 +25,7 @@ const floatingItems = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden px-5 pb-16 pt-32 sm:px-8 lg:px-12">
+    <section className="relative min-h-screen overflow-hidden px-5 pb-16 pt-42 sm:px-8 lg:px-12">
       <div className="pointer-events-none absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-[#d9a9b7]/20 blur-3xl" />
 
       <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href="#work">View My Work</Button>
             <Button href="#contact" variant="secondary">
-              Work With Me
+              Download My CV
             </Button>
           </div>
 
@@ -124,9 +124,9 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.1 }}
-        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-xs text-[#6f6b66] sm:flex"
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-md sm:flex"
       >
-        Scroll to explore
+        <span className="text-md text-[#7a3048] font-medium">Scroll to explore</span>
         <ArrowDown size={14} />
       </motion.a>
     </section>
