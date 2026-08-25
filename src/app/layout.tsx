@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "SimiOps provides virtual assistance, executive support, and technical operations services for founders and growing teams.",
   icons: {
-    icon: "/simi2.PNG",
+    icon: "/simi3.PNG",
   },
 };
 

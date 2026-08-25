@@ -47,7 +47,7 @@ export default function About() {
           >
             <div className="relative aspect-4/5 overflow-hidden rounded-4xl bg-[#eeeae4]">
               <Image
-                src="/simi3.jpeg"
+                src="/simi3.PNG"
                 alt="Simisola working"
                 fill
                 sizes="(max-width: 1024px) 90vw, 420px"

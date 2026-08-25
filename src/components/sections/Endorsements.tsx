@@ -11,45 +11,45 @@ import { useState } from "react";
 const endorsements = [
   {
     quote:
-      "Simisola is dependable, thoughtful, and exceptionally proactive. She takes ownership of her responsibilities, communicates clearly, and consistently looks for better ways to get things done.",
-    name: "Professional Endorsement",
-    role: "Former Manager / Team Lead",
-    initials: "PE",
+      "Simi is hardworking, reliable, and very easy to work with. She takes ownership of her responsibilities and is always willing to support the team. One thing I particularly appreciate about working with her is that she is willing to step in and fill the gap when a colleague is unavailable or needs support, and she does so without making it feel like a burden. She is also a fast learner and communicates well.",
+    name: "Stephanie Eke",
+    role: "Frontend Developer/ Colleague at iRES",
+    initials: "SE",
   },
   {
     quote:
-      "Working with Simisola has always been easy because she learns quickly, pays attention to details, and can be trusted to take a task from an idea through to completion.",
-    name: "Professional Endorsement",
-    role: "Former Colleague",
-    initials: "PE",
+      "Working with Simisola has always been easy because she assimilates quickly, pays attention to details, and can be trusted to take a task from an idea through to completion.",
+    name: "Michael Obinna",
+    role: "CEO at MarcStefan Foods/Client",
+    initials: "MO",
   },
   {
     quote:
       "Simisola brings a strong problem-solving mindset to her work. She is organized, resourceful, and comfortable figuring things out independently when faced with something new.",
-    name: "Professional Endorsement",
-    role: "Professional Collaborator",
-    initials: "PE",
+    name: "Usman Bakare",
+    role: "CEO/Founder at iRES",
+    initials: "UB",
   },
   {
     quote:
       "Simisola communicates exceptionally well and is someone you can trust with responsibility. She is intentional about understanding the task before getting started.",
-    name: "Professional Endorsement",
-    role: "Former Colleague",
-    initials: "PE",
+    name: "Mojisola Aramide",
+    role: "Former Colleague at Aparte.ng",
+    initials: "MA",
   },
   {
     quote:
       "She has a natural ability to bring structure to complex situations. Simisola asks the right questions, learns quickly, and follows through.",
-    name: "Professional Endorsement",
-    role: "Professional Collaborator",
-    initials: "PE",
+    name: "Gracious Onyeahialam",
+    role: "Cybersecurity Analyst | Colleague Collaborator on Outreachy",
+    initials: "GO",
   },
   {
     quote:
       "Simisola is one of those people who doesn't wait around for someone else to solve a problem. She takes initiative and figures things out.",
-    name: "Professional Endorsement",
-    role: "Former Team Lead",
-    initials: "PE",
+    name: "Ajayi Daniel",
+    role: "Web Developer | Colleague",
+    initials: "AD",
   },
   {
     quote:

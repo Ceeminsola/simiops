@@ -26,7 +26,7 @@ const floatingItems = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden px-5 pb-16 pt-42 sm:px-8 lg:px-12">
+    <section className="relative min-h-screen overflow-hidden px-5 pb-16 pt-28 lg:pt-42 sm:px-8 lg:px-12">
       <div className="pointer-events-none absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-[#d9a9b7]/20 blur-3xl" />
 
       <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
@@ -80,7 +80,7 @@ export default function Hero() {
         >
           <div className="relative aspect-4/5 overflow-hidden rounded-4xl bg-[#eeeae4]">
             <Image
-                src="/simi2.PNG"
+                src="/ceemin.PNG"
                 alt="Simisola, founder of SimiOps"
                 fill
                 priority
@@ -102,7 +102,7 @@ export default function Hero() {
                   duration: 0.6,
                   delay: 0.7 + index * 0.15,
                 }}
-                className={`absolute ${item.className} flex items-center gap-2 rounded-2xl border border-[#ded9d2] bg-white px-3 py-2.5 text-xs font-medium shadow-lg shadow-black/5`}
+                className={`absolute ${item.className} flex items-center gap-2 rounded-2xl border border-[#ded9d2] bg-white px-2.5 py-1.5 lg:px-3 lg:py-2.5 text-xs font-medium shadow-lg shadow-black/5`}
               >
                 <Icon size={15} className="text-[#7a3048]" />
                 {item.label}
