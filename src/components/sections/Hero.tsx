@@ -57,7 +57,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href="#work">View My Work</Button>
             <a
-                  href="/cv/Simisola Olubodun VA RESUME 26.pdf"
+                  href="/cv/Simisola Olubodun VA Resume 26.pdf"
                   download
                   className="inline-flex items-center justify-center gap-2 rounded-full hover:-translate-y-0.5 hover:text-white hover:bg-[#7a3048] border border-[#7a3048] px-5 py-3.5 text-sm font-medium text-white transition-colors duration-300 "
                 >

@@ -53,7 +53,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="/cv/Simisola Olubodun VA RESUME 26.pdf"
+                  href="/cv/Simisola Olubodun VA Resume 26.pdf"
                   download
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-5 py-3.5 text-sm font-medium text-white transition-colors duration-300 hover:bg-white/10"
                 >

@@ -72,7 +72,7 @@ export default function Footer() {
             </p>
 
             <a
-              href="/cv/Simisola Olubodun VA RESUME 26.pdf"
+              href="/cv/Simisola Olubodun VA Resume 26.pdf"
               download
               className="mt-5 inline-flex items-center gap-2 rounded-full bg-[#7a3048] px-4 py-2.5 text-sm font-medium text-white transition-transform duration-300 hover:-translate-y-0.5"
             >
