@@ -26,7 +26,7 @@ const floatingItems = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden px-5 pb-16 pt-28 lg:pt-42 sm:px-8 lg:px-12">
+    <section className="relative min-h-screen overflow-hidden px-5 pb-16 pt-28 lg:pb-4 lg:pt-42 sm:px-8 lg:px-10">
       <div className="pointer-events-none absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-[#d9a9b7]/20 blur-3xl" />
 
       <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
@@ -57,7 +57,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href="#work">View My Work</Button>
             <a
-                  href="/cv/Simisola Olubodun VA CV 2026.pdf"
+                  href="/cv/Simisola Olubodun VA RESUME 26.pdf"
                   download
                   className="inline-flex items-center justify-center gap-2 rounded-full hover:-translate-y-0.5 hover:text-white hover:bg-[#7a3048] border border-[#7a3048] px-5 py-3.5 text-sm font-medium text-white transition-colors duration-300 "
                 >
@@ -68,7 +68,7 @@ export default function Hero() {
 
           <div className="mt-12 flex items-center gap-3 text-sm text-[#6f6b66]">
             <Sparkles size={17} className="text-[#7a3048]" />
-            <span>Organized. Technical. Human.</span>
+            <span>Organized. Technical. Spontaneous.</span>
           </div>
         </motion.div>
 
@@ -125,16 +125,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <motion.a
-        href="#services"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.1 }}
-        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 items-center gap-2 text-md sm:flex"
-      >
-        <span className="text-md text-[#7a3048] font-medium">Scroll to explore</span>
-        <ArrowDown size={14} />
-      </motion.a>
+      
     </section>
   );
 }

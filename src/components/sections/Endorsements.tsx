@@ -18,59 +18,52 @@ const endorsements = [
   },
   {
     quote:
-      "Working with Simisola has always been easy because she assimilates quickly, pays attention to details, and can be trusted to take a task from an idea through to completion.",
+      "Working with Simisola has always been easy because she assimilates quickly, pays attention to details, and can be trusted to take a task from an idea through to completion. She is a delight to work with and always ready to deliver exactly how you have envisioned your idea. She has an interesting approach to breaking things down and she talks nicely also. I would recommend her to anyone looking for a reliable and competent professional.",
     name: "Michael Obinna",
     role: "CEO at MarcStefan Foods/Client",
     initials: "MO",
   },
   {
     quote:
-      "Simisola brings a strong problem-solving mindset to her work. She is organized, resourceful, and comfortable figuring things out independently when faced with something new.",
+      "Simisola brings a strong problem-solving mindset to her work. She is organized, resourceful, and comfortable figuring things out independently when faced with something new. I have always been intrigued by her ability to bring raw visions to life and carefully breaking down structures and workflows. She is indeed a great asset to any team.",
     name: "Usman Bakare",
     role: "CEO/Founder at iRES",
     initials: "UB",
   },
   {
     quote:
-      "Simisola communicates exceptionally well and is someone you can trust with responsibility. She is intentional about understanding the task before getting started.",
+      "Simisola communicates exceptionally well and has an excellent work attitude. She is calm, approachable, a great multitasker, and open to feedback. She has a strong work ethic, works well under pressure, and is always willing to find solutions and improve.",
     name: "Mojisola Aramide",
     role: "Former Colleague at Aparte.ng",
     initials: "MA",
   },
   {
     quote:
-      "She has a natural ability to bring structure to complex situations. Simisola asks the right questions, learns quickly, and follows through.",
+      "She has a natural ability to bring structure to complex situations. Simi asks the right questions, learns quickly, and follows through. She has a thick skin for working under pressure also. I call it a superpower because it is rare to find someone who can handle pressure and still be calm, composed, and professional.",
     name: "Gracious Onyeahialam",
     role: "Cybersecurity Analyst | Colleague Collaborator on Outreachy",
     initials: "GO",
   },
   {
     quote:
-      "Simisola is one of those people who doesn't wait around for someone else to solve a problem. She takes initiative and figures things out.",
-    name: "Ajayi Daniel",
-    role: "Web Developer | Colleague",
-    initials: "AD",
+      "Simi is someone i would confidently recommend. She is hardworking reliable, and takes her responsiblities seriously. I've found her to be someone who is willing to learn, take initiative, and get the job done properly. Beyond her technical/professional abilities, she has a good attitude, communicates well, and is respectful and collaborative with the people she works with. I believe she would be a great addition to any team or organization",
+    name: "Daniel Ajayi",
+    role: "Senior Software Engineer | Colleague/Teammate",
+    initials: "DA",
   },
   {
     quote:
-      "Her attention to detail and willingness to take ownership made working with her incredibly smooth. She consistently brought a thoughtful approach to her work.",
-    name: "Professional Endorsement",
-    role: "Former Manager",
-    initials: "PE",
+      "Miss Simi's attention to detail and willingness to take ownership made working with her incredibly smooth. She consistently brought a thoughtful approach to her work. She is a great team player and a pleasure to work with. She is also willing to step in and teach others when needed, which is a great quality in a teammate. I would highly recommend her to anyone looking for a reliable and skilled professional.",
+    name: "Aisha Arinola",
+    role: "Product Designer | Teammate",
+    initials: "AA",
   },
   {
     quote:
-      "Simisola is adaptable, organized, and very comfortable learning new systems. She brings both creativity and structure to the way she approaches work.",
-    name: "Professional Endorsement",
-    role: "Professional Colleague",
-    initials: "PE",
-  },
-  {
-    quote:
-      "I would describe Simisola as someone who can be trusted with a problem and given the space to figure out the best way forward.",
-    name: "Professional Endorsement",
-    role: "Professional Collaborator",
-    initials: "PE",
+      "I would describe Simisola as someone who can be trusted with a problem and given the space to figure out the best way forward. She is able to break down complex problems into manageable pieces. She is also very organized and detail-oriented, which makes her a great asset to any team. I would highly recommend her to anyone any day anytime",
+    name: "Damilare Akinyemi",
+    role: "Software Engineer | Colleague/Teammate",
+    initials: "DA",
   },
 ];
 
